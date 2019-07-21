@@ -1,0 +1,16 @@
+The lambdas must flow.
+If I break, you can:
+  1. Restart:           M-x haskell-process-restart
+  2. Configure logging: C-h v haskell-process-log (useful for debugging)
+  3. General config:    M-x customize-mode
+  4. Hide these tips:   C-h v haskell-process-show-debug-tips
+λ> take 2 : myIterate (+1) 0
+
+<interactive>:35:1-25: error:
+    • Non type-variable argument in the constraint: Num ([a] -> [a])
+      (Use FlexibleContexts to permit this)
+    • When checking the inferred type
+        it :: forall a. Num ([a] -> [a]) => [[a] -> [a]]
+λ> take 2 $ myIterate (+1) 0
+[0,1]
+λ> take 5 $ myIterate (+1) 0

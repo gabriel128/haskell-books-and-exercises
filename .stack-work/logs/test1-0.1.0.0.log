@@ -1,0 +1,13 @@
+Configuring test1-0.1.0.0...
+Preprocessing library for test1-0.1.0.0..
+Building library for test1-0.1.0.0..
+[1 of 2] Compiling Lib              ( src/Lib.hs, .stack-work/dist/x86_64-linux-tinfo6-nopie/Cabal-2.0.1.0/build/Lib.o )
+[2 of 2] Compiling Paths_test1      ( .stack-work/dist/x86_64-linux-tinfo6-nopie/Cabal-2.0.1.0/build/autogen/Paths_test1.hs, .stack-work/dist/x86_64-linux-tinfo6-nopie/Cabal-2.0.1.0/build/Paths_test1.o )
+Preprocessing executable 'test1-exe' for test1-0.1.0.0..
+Building executable 'test1-exe' for test1-0.1.0.0..
+[1 of 2] Compiling Main             ( app/Main.hs, .stack-work/dist/x86_64-linux-tinfo6-nopie/Cabal-2.0.1.0/build/test1-exe/test1-exe-tmp/Main.o )
+[2 of 2] Compiling Paths_test1      ( .stack-work/dist/x86_64-linux-tinfo6-nopie/Cabal-2.0.1.0/build/test1-exe/autogen/Paths_test1.hs, .stack-work/dist/x86_64-linux-tinfo6-nopie/Cabal-2.0.1.0/build/test1-exe/test1-exe-tmp/Paths_test1.o )
+Linking .stack-work/dist/x86_64-linux-tinfo6-nopie/Cabal-2.0.1.0/build/test1-exe/test1-exe ...
+Installing library in /home/gabriel/dev/workspaces/haskell-exercises/.stack-work/install/x86_64-linux-tinfo6-nopie/lts-11.12/8.2.2/lib/x86_64-linux-ghc-8.2.2/test1-0.1.0.0-47SERP1Vx5QKezZ49DaOR6
+Installing executable test1-exe in /home/gabriel/dev/workspaces/haskell-exercises/.stack-work/install/x86_64-linux-tinfo6-nopie/lts-11.12/8.2.2/bin
+Registering library for test1-0.1.0.0..

@@ -1,0 +1,94 @@
+Hello, Haskell!
+If I break, you can:
+  1. Restart:           M-x haskell-process-restart
+  2. Configure logging: C-h v haskell-process-log (useful for debugging)
+  3. General config:    M-x customize-mode
+  4. Hide these tips:   C-h v haskell-process-show-debug-tips
+λ> main
+one
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+
+λ> read "one"
+*** Exception: Prelude.read: no parse
+λ> ['1'..'10']
+
+<interactive>:92:8-9: error: parse error on input ‘10’
+λ> 
+λ> ["1".."10"]["1".."10"]
+
+<interactive>:94:1-11: error:
+    • No instance for (Enum [Char])
+        arising from the arithmetic sequence ‘"1" .. "10"’
+    • In the expression: ["1" .. "10"]
+      In an equation for ‘it’: it = ["1" .. "10"]
+λ> ['a'..'z']
+"abcdefghijklmnopqrstuvwxyz"
+λ> main
+1. one
+2. two
+3. three
+4. four
+5. five
+6. six
+7. seven
+8. eight
+9. nine
+10. ten
+
+λ> main
+1. one
+2. two
+3. three
+4. four
+5. five
+6. six
+7. seven
+8. eight
+9. nine
+10. ten
+
+λ> main
+1. one
+2. two
+3. three
+4. four
+5. five
+6. six
+7. seven
+8. eight
+9. nine
+10. ten
+
+λ> main
+1. one
+2. two
+3. three
+4. four
+5. five
+6. six
+7. seven
+8. eight
+9. nine
+10. ten
+
+λ> main
+1. one
+2. two
+3. three
+4. four
+5. five
+6. six
+7. seven
+8. eight
+9. nine
+10. ten
+
+λ> 

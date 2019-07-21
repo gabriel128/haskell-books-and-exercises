@@ -1,0 +1,7 @@
+Configuring book-0.0.1...
+Warning: 'hs-source-dirs: tests' directory does not exist.
+Warning: 'hs-source-dirs: tests' directory does not exist.
+Preprocessing library for book-0.0.1..
+Building library for book-0.0.1..
+Installing library in /home/gabriel/dev/workspaces/haskell-exercises/.stack-work/install/x86_64-linux-tinfo6-nopie/lts-11.12/8.2.2/lib/x86_64-linux-ghc-8.2.2/book-0.0.1-4RL63Lpfy7bIsM1EnYDCbG
+Registering library for book-0.0.1..

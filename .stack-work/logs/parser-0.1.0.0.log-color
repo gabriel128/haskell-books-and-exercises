@@ -1,0 +1,4 @@
+Configuring parser-0.1.0.0...
+Preprocessing executable 'parser' for parser-0.1.0.0..
+Building executable 'parser' for parser-0.1.0.0..
+Installing executable parser in /home/gabriel/dev/workspaces/haskell-exercises/.stack-work/install/x86_64-linux-tinfo6-nopie/lts-11.12/8.2.2/bin
